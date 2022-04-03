@@ -51,6 +51,9 @@ header p{
     margin-right: 50px;
     box-sizing: border-box;
 }
+.Prato-Principal::-webkit-scrollbar, .Bebida::-webkit-scrollbar,.Sobremesa::-webkit-scrollbar{
+    display: none;
+}
 h3{
     font-family: 'Righteous';
     font-weight: 400;

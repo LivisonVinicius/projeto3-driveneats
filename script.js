@@ -27,15 +27,10 @@ function fechaConta(){
     drink=drink.querySelector("h6").innerHTML.slice(2).replace(",", ".");
     desert=desert.querySelector("h6").innerHTML.slice(2).replace(",", ".");
     const valorFinal= (Number(comida)+Number(drink)+Number(desert)).toFixed(2);
-
     window.open("https://wa.me/5521965778101?text="+encodeURIComponent(`Olá, gostaria de fazer o pedido:
     - Prato: ${nomeComida}
     - Bebida: ${nomeDrink}
     - Sobremesa: ${nomeDesert}
     Total: R$ ${valorFinal}`));
-    
-    
-
-
 }
 
