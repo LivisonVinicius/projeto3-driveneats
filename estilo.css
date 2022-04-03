@@ -169,6 +169,75 @@ footer div{
 .botaoBottom {
     background-color: #32B72F;
 }
+
+.confirmacao{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.telaConfirmacao{
+    font-family: 'Roboto';
+    width: 377px;
+    height: 353px;
+    background: #50D074;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boxFinaliza{
+    margin-top: 13px;
+    width: 326px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.telaConfirmacao h2{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.telaConfirmacao h5,h4{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+}
+
+.finalizaPedido{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.018em;
+    color: #50D074;
+    background: #FFFFFF;
+    border-radius: 100px;
+    width: 329px;
+    height: 52px;
+    margin-top: 24px;
+}
+.cancela{
+    width: 329px;
+    height: 52px;
+}
+
 .escondido {
     display:none;
 }
+
