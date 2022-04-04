@@ -149,6 +149,9 @@ footer div{
     flex-direction: column;
     color: #FFFFFF;
 }
+.botaoBottom {
+    background-color: #32B72F;
+}
 .Selecionada{
     border: 5px solid #32B72F;
     position: relative;
@@ -166,9 +169,7 @@ footer div{
     right: 14px;
     bottom: 14px;
 }
-.botaoBottom {
-    background-color: #32B72F;
-}
+
 
 .confirmacao{
     position: fixed;
@@ -200,6 +201,10 @@ footer div{
     width: 326px;
     display: flex;
     justify-content: space-between;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
 }
 
 .telaConfirmacao h2{
@@ -209,12 +214,6 @@ footer div{
     text-align: center;
     margin-bottom: 15px;
     margin-top: 15px;
-}
-.telaConfirmacao h5,h4{
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    letter-spacing: 0.018em;
 }
 
 .finalizaPedido{
