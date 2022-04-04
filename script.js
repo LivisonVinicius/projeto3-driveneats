@@ -1,6 +1,6 @@
 function liberarBotao() {
     const verify=document.querySelectorAll(".Selecionada").length;
-    const botao =document.querySelector("footer .botaoBottom");
+    const botao =document.querySelector(".botaoBottom");
     const botaoDesativo= document.querySelector("footer").firstElementChild
     if(verify ===3){
         botao.classList.remove("escondido");
@@ -37,7 +37,6 @@ function fechaConta(){
     Nome: ${nome}
     Endereço: ${endereço}`));
 }
-
 function confirmacao() {
     const confirmar=document.querySelector(".confirmacao")
     confirmar.classList.remove("escondido")
@@ -57,9 +56,7 @@ function confirmacao() {
     document.querySelector(".valorFinal h5").innerHTML=valorFinal
     document.querySelector(".comida h5").innerHTML=comida
     document.querySelector(".bebida h5").innerHTML=drink
-    document.querySelector(".sobremesa h5").innerHTML=dessert
-
-    
+    document.querySelector(".sobremesa h5").innerHTML=dessert 
 }
 function cancelar(){
     const cancelar=document.querySelector(".confirmacao")
